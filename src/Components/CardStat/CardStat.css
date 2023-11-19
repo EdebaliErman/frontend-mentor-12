@@ -28,13 +28,14 @@
     }
     .speech-bubble {
         display: flex;
+        padding: 3rem;
         justify-content: center;
         align-items: center;
-        width: 13rem;
-        height: 5rem;
+        width: 17rem;
+        height: 6rem;
         position: relative;
         background: #ffffff;
-        border-radius: .4em;
+        border-radius: .7em;
     }
     
     .speech-bubble:after {
@@ -44,12 +45,12 @@
         right: 0%;
         width: 0;
         height: 0;
-        border: 100px solid transparent;
+        border: 40px solid transparent;
         border-top-color: #ffffff;
         border-bottom: 0;
         border-right: 0;
-        margin-left: -80px;
+        margin-left: -50px;
         z-index: 0;
-        margin-bottom: -50px;
+        margin-bottom: -30px;
     }
 }
