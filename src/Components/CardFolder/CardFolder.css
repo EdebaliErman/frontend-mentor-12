@@ -1,4 +1,18 @@
 @tailwind components;
 @layer components{
-    
+    .card-folder{
+        @apply flex justify-center items-center flex-col
+        bg-[#1e2c69] w-56 h-40
+        rounded-xl rounded-tr-[8rem] rounded-br-3xl
+    }
+    .card-folder{
+        @apply flex items-start justify-center p-3
+    }
+    .folder-box{
+        @apply flex justify-around items-center w-full
+    }
+   .folder-box svg{
+    @apply  bg-[#0b112b] w-12 h-12 
+   }
+  
 }
