@@ -2,17 +2,17 @@
 @layer components{
     .card-folder{
         @apply flex justify-center items-center flex-col
-        bg-[#1e2c69] w-56 h-40
-        rounded-xl rounded-tr-[8rem] rounded-br-3xl
+        bg-[#1e2c69] w-80 h-40 m-12  gap-8 
+        rounded-xl rounded-tr-[6rem] rounded-br-2xl 
     }
     .card-folder{
-        @apply flex items-start justify-center p-3
+        @apply flex items-start justify-center pl-8 
     }
     .folder-box{
-        @apply flex justify-around items-center w-full
+        @apply flex justify-start items-center w-full gap-3  
     }
    .folder-box svg{
-    @apply  bg-[#0b112b] w-12 h-12 
+    @apply  bg-[#0b112b] w-12 h-12  p-3 rounded-2xl
    }
   
 }

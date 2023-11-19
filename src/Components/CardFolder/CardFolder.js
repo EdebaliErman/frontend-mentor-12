@@ -9,9 +9,9 @@ function CardFolder() {
       {icons.logo}
       </div>
       <div className='folder-box'>
+        {icons.sky}
         {icons.folder}
         {icons.upload}
-        {icons.sky}
       </div>
     </div>
   )
