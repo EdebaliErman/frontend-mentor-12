@@ -6,4 +6,10 @@
         
         xl:flex-col xl:gap-12 xl:p-0
     }
+    .desktop-bg{
+        @apply w-full  z-0 bottom-0 fixed xl:hidden
+    }
+    .mobil-bg{
+        @apply w-full  z-0 bottom-0 fixed hidden xl:flex xl:left-0 xl:top-0 xl:h-full
+    }
 }
