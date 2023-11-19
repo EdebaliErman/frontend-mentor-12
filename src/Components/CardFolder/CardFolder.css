@@ -2,9 +2,10 @@
 @layer components{
     .card-folder{
         @apply flex justify-center items-center flex-col
-        bg-[#1e2c69] w-96 h-56 m-1  gap-8 
+        bg-[#1e2c69] w-96 h-56   gap-8 
         rounded-xl rounded-tr-[6rem] rounded-br-2xl 
         relative
+        xl:m-12
     }
     .card-folder{
         @apply flex items-start justify-center pl-8 

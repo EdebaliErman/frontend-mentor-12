@@ -4,7 +4,7 @@
 
 @layer base{
     html,body{
-        @apply m-0 bg-[#0c122c] w-full h-full flex justify-center items-center
+        @apply m-0 bg-[#0c122c] w-full flex justify-center items-center p-12
     }
   
 }
