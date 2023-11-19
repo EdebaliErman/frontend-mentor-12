@@ -2,6 +2,6 @@
 
 @layer components {
     .App {
-        @apply flex justify-center items-center
+        @apply flex justify-center items-start 
     }
 }

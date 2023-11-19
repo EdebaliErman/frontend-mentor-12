@@ -2,7 +2,7 @@
 @layer components{
     .cardStat{
         @apply bg-[#1e2c69] w-[800px] m-12 text-white 
-        flex flex-col justify-center items-start gap-1 p-12 rounded-3xl
+        flex flex-col justify-center items-start gap-1 p-6 rounded-3xl
         relative
     }
     .cardStat h1{
@@ -12,7 +12,7 @@
         @apply  font-serif font-bold
     }
     .stat-bar{
-        @apply w-full m-1 mt-6
+        @apply w-full pr-3 mt-6
     }
     .skill-bar{
         @apply bg-slate-900 w-full h-5 flex p-1 py-[10px] justify-start items-center relative rounded-full
