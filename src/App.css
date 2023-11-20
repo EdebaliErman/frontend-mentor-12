@@ -2,14 +2,17 @@
 
 @layer components {
     .App {
-        @apply flex justify-center items-start p-60 
+        @apply flex justify-center items-start p-4 
+        py-60 flex-wrap
+        xl:flex-col xl:gap-12 xl:p-0  
         
-        xl:flex-col xl:gap-12 xl:p-0
     }
     .desktop-bg{
-        @apply w-full  z-0 bottom-0 fixed xl:hidden
+        @apply w-full  z-0 bottom-0 fixed xl:hidden left-0
+        2xl:bottom-0 2xl:left-0
     }
     .mobil-bg{
-        @apply w-full  z-0 bottom-0 fixed hidden xl:flex xl:left-0 xl:top-0 xl:h-full
+        @apply w-full  z-0 bottom-0 fixed hidden 
+        xl:flex xl:left-0 xl:top-0 xl:h-full
     }
 }

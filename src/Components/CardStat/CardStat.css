@@ -5,6 +5,7 @@
         flex flex-col justify-center items-start gap-1 p-6 rounded-3xl
         relative
         xl:w-max
+        sm:ml-24 
     }
     .cardStat h1{
         @apply opacity-100 text-gray-400 text-xl
@@ -37,8 +38,11 @@
         position: relative;
         background: #ffffff;
         border-radius: .7em;
+      
     }
-    
+    .speech-bubble{
+        @apply xl:top-56 xl:w-48 xl:right-16 xl:p-0
+    }
     .speech-bubble:after {
         content: '';
         position: absolute;

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <img 
-      className=' w-full  z-0 bottom-0 fixed xl:hidden'
+      className='desktop-bg'
       alt='bg'
       src={process.env.PUBLIC_URL+"assets/bg-desktop.png"} />
           <img 
