@@ -4,7 +4,7 @@
     .App {
         @apply flex justify-center items-start p-4 
         py-60 flex-wrap
-        xl:flex-col xl:gap-12 xl:p-0  
+        xl:flex-col xl:gap-1 xl:p-0  
         
     }
     .desktop-bg{

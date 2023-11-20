@@ -1,3 +1,10 @@
+# Desktop
+
+<img src="public/assets/1123.jpeg" alt="no.png">
+
+# Mobil
+
+<img src="public/assets/1123.jpeg" alt="no.png">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
